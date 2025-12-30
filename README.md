@@ -1,7 +1,7 @@
 # Machine Learning for Climate Risks  
 ## Analyse et prédiction des indices de sécheresse à partir de données spatiales et hydrométéorologiques
 
-### 📌 Présentation du projet
+### Présentation du projet
 
 Ce projet académique vise à **modéliser et prédire le SWI uniforme**, un indice d’humidité des sols utilisé comme référence réglementaire pour l’évaluation du risque sécheresse et l’éligibilité au dispositif **CATNAT** en France.  
 L’objectif est double :  
@@ -12,7 +12,7 @@ Le projet combine des méthodes de **machine learning**, d’**analyse spatiale*
 
 ---
 
-### 🗂 Données
+### Données
 
 Les données utilisées couvrent la période **1990–2025** et proviennent de plusieurs sources :
 - variables hydrométéorologiques issues de SAFRAN (précipitations, évaporation, drainage, etc.),
@@ -24,7 +24,7 @@ Les différentes sources ont été harmonisées spatialement (projection Lambert
 
 ---
 
-### 🔍 Méthodologie
+### Méthodologie
 
 Le workflow du projet est structuré en quatre grandes étapes :
 
@@ -45,7 +45,7 @@ Le workflow du projet est structuré en quatre grandes étapes :
 
 ---
 
-### 🌍 Détection des sécheresses (CATNAT)
+### Détection des sécheresses (CATNAT)
 
 À partir du SWI uniforme prédit, des **seuils statistiques basés sur des quantiles historiques** (Q25 et Q05) sont définis par commune et par trimestre.  
 Ces seuils permettent d’identifier :
@@ -56,7 +56,7 @@ en cohérence avec les logiques réglementaires du régime CATNAT.
 
 ---
 
-### ✅ Résultats principaux
+### Résultats principaux
 
 - Les modèles d’ensemble, en particulier le **Gradient Boosting**, offrent d’excellentes performances prédictives (R² > 0.97).
 - Les résidus présentent une structure spatiale non aléatoire, confirmée statistiquement.
@@ -68,7 +68,7 @@ en cohérence avec les logiques réglementaires du régime CATNAT.
 
 ---
 
-### 🧠 Perspectives
+### Perspectives
 
 Le projet met en évidence l’intérêt d’intégrer explicitement la dimension spatiale dans les modèles prédictifs de risques climatiques.  
 Des pistes d’amélioration incluent :
@@ -87,7 +87,5 @@ Projet académique réalisé par :
 Année universitaire **2025–2026**
 
 ---
-
-### ⚠️ Remarque
 
 Ce dépôt correspond à un **travail académique exploratoire**. Les résultats ne constituent pas une application opérationnelle directe, mais une base méthodologique pour l’analyse et la modélisation des risques climatiques.
