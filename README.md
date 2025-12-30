@@ -78,7 +78,7 @@ Des pistes d’amélioration incluent :
 
 ---
 
-### 👩‍💻 Auteurs
+### Auteurs
 
 Projet académique réalisé par :  
 - **Charlotte Cegarra**  
